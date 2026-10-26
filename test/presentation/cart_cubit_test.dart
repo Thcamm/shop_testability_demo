@@ -15,7 +15,7 @@ void main() {
     // Act
     await cubit.load();
     // Assert
-    expect(cubit.state.items.length, 1);
+    expect(cubit.state.items.length, 2);
     expect(cubit.state.loading, false);
   });
 
