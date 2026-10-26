@@ -1,10 +1,7 @@
 import 'dart:convert';
-
 import 'package:http/http.dart' as http;
-
 import '../domain/product.dart';
 import '../domain/shop_api.dart';
-
 class ShopApiException implements Exception {
   final String message;
   const ShopApiException(this.message);
