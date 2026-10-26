@@ -1,5 +1,5 @@
-import 'package:shop_testability_demo/data/product.dart';
-import 'package:shop_testability_demo/data/shop_api.dart';
+import 'package:shop_testability_demo/domain/product.dart';
+import 'package:shop_testability_demo/domain/shop_api.dart';
 
 class FakeShopApi implements ShopApi {
   @override
